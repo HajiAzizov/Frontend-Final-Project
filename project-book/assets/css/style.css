@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+*:not(i) {
+  font-family: "Open Sans", sans-serif;
+}
+
+.navbar-brand h2 {
+  font-family: "Playfair Display", serif;
+  margin: 0;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.navbar-brand h2 span {
+  font-family: "Playfair Display", serif;
+  font-weight: normal;
+}
+
+.nav-self {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: transparent !important;
+  border-bottom: 1px solid #0000002c;
+}
+
+.nav-self ul li {
+  margin: 0 20px;
+}
+
+.nav-self ul li a {
+  color: #777;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.nav-self ul li a:hover {
+  color: #daa556;
+}
+
+.active-self {
+  color: #daa556 !important;
+}
+
+.top-nav {
+  padding: 15px 0;
+  border-bottom: 1px solid #0000002c;
+}
+
+.top-nav-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 15px;
+}
+
+.top-nav-item a {
+  text-decoration: none;
+  color: #515050;
+  font-weight: 500;
+  transition: 0.2s;
+}
+
+.top-nav-item a:hover {
+  color: #daa556;
+}
+
+.top-nav-item a i {
+  margin-right: 4px;
+  font-size: 15px;
+}
+
+.hero {
+  padding: 40px 0;
+}
+
+.hero h2 {
+  font-size: 55px;
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+  margin-bottom: 35px;
+}
+
+.hero p {
+  margin-bottom: 35px;
+}
+
+.hero a {
+  text-decoration: none;
+  display: inline-block;
+  color: #daa556;
+  padding: 10px 40px;
+  border: 1px solid #daa556;
+  margin: 0;
+  transition: 0.4s;
+}
+
+.hero a:hover {
+  color: #000;
+  border: 1px solid #000;
+  padding-right: 50px;
+}
+
+.hero a:hover i {
+  transform: translateX(10px);
+}
+
+.hero a i {
+  margin-left: 10px;
+  transition: .4S;
+}
+
+.hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+body {
+  background: #f3f2ec;
+}
+
+.container-self {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.pad-self{
+    padding: 0 70px;
+}
+
+/* .swiper-button-next,
+.swiper-button-prev
+{
+    display: inline-block;
+} */
+
+.swiper-button-next::after,
+.swiper-button-prev::after
+{
+    /* padding: 10px; */
+
+    color:#856535;
+}
+@media (max-width: 768px) {
+  .container-self {
+    max-width: 95%;
+  }
+  .pad-self{
+    padding: 0 20px;
+}
+
+}
