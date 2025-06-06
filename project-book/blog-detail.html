@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ReadAndBuy - Book Store</title>
+    <script src="assets/js/fa.js"></script>
+
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+    /> -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <section class="top-nav">
+        <div
+          class="d-flex align-items-center justify-content-end container container-self"
+        >
+          <div class="top-nav-item dropdown">
+            <a
+              class="dropdown-toggle"
+              href="#"
+              role="button"
+              id="accountDropdown"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <i class="fa-regular fa-user"></i> Account
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="accountDropdown">
+              <li>
+                <a class="dropdown-item" href="signup.html"
+                  ><i class="fa fa-user-plus me-2"></i>Sign Up</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="login.html"
+                  ><i class="fa fa-right-to-bracket me-2"></i>Login</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="/logout"
+                  ><i class="fa fa-arrow-right-from-bracket me-2"></i>Logout</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="top-nav-item">
+            <a href="wishlist.html">
+              <i class="fa-regular fa-heart"></i> Wishlist</a
+            >
+          </div>
+          <div class="top-nav-item">
+            <a href="cart.html">
+              <i class="fa-regular fa-cart-shopping"></i>
+
+              Cart
+              <span>(0$)</span>
+            </a>
+          </div>
+        </div>
+      </section>
+      <nav class="navbar nav-self navbar-expand-xl bg-body-tertiary">
+        <div
+          class="container container-self d-flex align-items-center justify-content-between"
+        >
+          <a class="navbar-brand" href="index.html">
+            <h2>ReadAnd<span>Buy</span></h2>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNavDropdown"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Pages
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="products.html">Products</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="authors.html">Authors</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero-2">
+        <h2>Blog Name</h2>
+      </section>
+
+      <section class="py-5 blog-detail container">
+        <div class="row g-4">
+          <div class="col-lg-12">
+            <img src="assets/images/post-img1.jpg" alt="" />
+          </div>
+          <div class="col-lg-12">
+            <h2>Blog Name</h2>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse
+              nulla dolor repellat dolores fuga exercitationem delectus
+              laudantium, architecto necessitatibus veniam repellendus sapiente
+              consequuntur, nemo omnis? Inventore totam, ex asperiores aperiam
+              libero fugit veniam sapiente aut aspernatur odio porro possimus
+              architecto ut nihil perferendis eveniet iste quidem aliquid culpa
+              esse temporibus, ipsum quod numquam. Enim corrupti, optio dolor ab
+              similique quod id asperiores? Qui adipisci aperiam animi ipsa
+              iusto debitis voluptatibus veritatis, placeat beatae a incidunt
+              tempore quibusdam consequatur deleniti! Labore sequi officia quod
+              laborum perferendis, odio eum similique nulla sapiente porro,
+              blanditiis quisquam explicabo atque at praesentium nesciunt.
+              Quisquam quae ex ut quibusdam iusto, autem earum? Perferendis
+              illum iure impedit ab tempore? Perferendis nostrum cum, labore
+              optio aspernatur esse? Commodi vitae, accusamus, blanditiis aut
+              quia sequi numquam error quaerat suscipit, minus temporibus
+              laborum quo odit quam corporis. Quam minima sit voluptatem sint
+              pariatur ipsam voluptas facere dicta ut hic quia, unde
+              repellendus, architecto aliquid. Porro iure reprehenderit suscipit
+              doloribus praesentium unde dolore deleniti similique eum nulla,
+              esse possimus asperiores numquam beatae ea repellat? Facilis nulla
+              eius numquam natus illo facere explicabo tempore dolores suscipit
+              asperiores, odio quae repellat, delectus vitae! Aperiam beatae
+              odit quaerat magni veniam molestiae porro ducimus alias inventore
+              officiis iure sint, fugiat voluptatum quasi exercitationem,
+              mollitia repellendus ut distinctio sed explicabo maiores
+              praesentium! Omnis qui expedita adipisci tempora porro
+              praesentium, sapiente eveniet laborum eum accusantium incidunt
+              possimus tenetur dicta vitae velit, neque delectus odit nihil
+              recusandae reiciendis nulla non saepe. 
+              <br><br>
+              Tempore perferendis
+              similique quaerat exercitationem dicta, dolorum officiis ullam
+              necessitatibus. Exercitationem natus enim veritatis quae a?
+              Accusamus impedit delectus deleniti facilis molestias quis fuga
+              placeat laborum qui totam modi dignissimos recusandae porro
+              facere, officia ut autem saepe quasi magnam inventore
+              reprehenderit in quos reiciendis maiores! Laborum delectus,
+              consequuntur natus sint eum placeat nisi tempore necessitatibus
+              autem eligendi expedita sapiente temporibus dignissimos doloribus
+              ducimus iusto, ipsa rerum impedit exercitationem facilis vel
+              tenetur? Aliquam dolorum eaque, et blanditiis modi aperiam minus
+              similique corrupti rem dolor enim molestiae a in mollitia eos ea
+              tempore. Dolorum suscipit, ipsam deleniti aliquam modi impedit.
+              Ratione rerum repellat assumenda! Dolorum esse vero nam autem
+              nihil rem commodi doloribus, sequi consequatur suscipit nobis aut
+              ut est quos itaque et placeat quae repellat magni saepe, voluptas
+              recusandae. Qui quasi dolorem mollitia voluptatem obcaecati
+              laborum debitis nobis excepturi, praesentium tempore corrupti
+              dolorum distinctio. Harum modi praesentium porro consectetur sit
+              maiores quaerat nihil, odit autem asperiores inventore voluptatem
+              quia laboriosam reprehenderit architecto provident eveniet ipsum.
+              Sequi obcaecati corrupti fugiat aliquid, suscipit deserunt autem
+              voluptates dolore. Sequi aut repellat molestiae! Suscipit sunt
+              aliquam repellendus perferendis porro veniam officia eius
+              explicabo molestiae sed amet, nisi quod at! Laborum quam incidunt
+              accusantium fugit, impedit consequatur eveniet earum, amet
+              mollitia eaque ullam similique optio iste esse illum, ea delectus.
+              Repudiandae tempora impedit molestiae deleniti vitae perspiciatis
+              quod tenetur! Impedit ratione repellendus laudantium commodi
+              eligendi tempora dolorem atque ex facilis saepe incidunt labore,
+              cum aut iste distinctio. Eum praesentium maiores cumque ducimus.
+              Id explicabo nihil perspiciatis velit accusantium fugiat, veniam
+              itaque? Officiis, quibusdam.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 mb-4 mb-md-0">
+            <div class="footer-logo">
+              <span class="book">READ</span><span class="saw">ANDBUY</span>
+            </div>
+            <p class="footer-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sagittis
+              sed ptibus liberolectus nonet psyroin. Amet sed lorem posuere sit
+              iaculis amet, ac urna. Adipiscing fames semper erat ac in
+              suspendisse iaculis.
+            </p>
+          </div>
+
+          <div class="col-lg-2"></div>
+
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5>Discover</h5>
+            <ul class="footer-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="products.html">Products</a></li>
+              <li><a href="Authors.html">Authors</a></li>
+              <li><a href="Blog.html">Blog</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5>My Account</h5>
+            <ul class="footer-links">
+              <li><a href="login.html">Login</a></li>
+              <li><a href="cart.html">View Cart</a></li>
+              <li><a href="wishlist.html">My Wishlist</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row footer-bottom">
+          <div class="col-md-6">
+            <p>© 2025 All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script> -->
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

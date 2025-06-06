@@ -5,14 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ReadAndBuy - Book Store</title>
     <script src="assets/js/fa.js"></script>
+
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+    /> -->
+
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
 
     <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
-    rel="stylesheet"/>
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
@@ -51,10 +63,10 @@
             </ul>
           </div>
           <div class="top-nav-item">
-            <a href=""> <i class="fa-regular fa-heart"></i> Wishlist</a>
+            <a href="wishlist.html"> <i class="fa-regular fa-heart"></i> Wishlist</a>
           </div>
           <div class="top-nav-item">
-            <a href="">
+            <a href="cart.html">
               <i class="fa-regular fa-cart-shopping"></i>
 
               Cart
@@ -110,7 +122,7 @@
                 </a>
                 <ul class="dropdown-menu">
                   <li>
-                    <a class="dropdown-item" href="product.html">Products</a>
+                    <a class="dropdown-item" href="products.html">Products</a>
                   </li>
                   <li>
                     <a class="dropdown-item" href="authors.html">Authors</a>
@@ -140,7 +152,7 @@
                     pariatur necessitatibus sint fugit illo deserunt ducimus
                     asperiores at molestiae blanditiis ratione excepturi.
                   </p>
-                  <a href="product.html">
+                  <a href="products.html" class="by-nw">
                     Buy Now
                     <i class="fa-solid fa-arrow-right"></i>
                   </a>
@@ -160,7 +172,7 @@
                     pariatur necessitatibus sint fugit illo deserunt ducimus
                     asperiores at molestiae blanditiis ratione excepturi.
                   </p>
-                  <a href="product.html">
+                  <a href="products.html">
                     Buy Now
                     <i class="fa-solid fa-arrow-right"></i>
                   </a>
@@ -180,7 +192,7 @@
                     pariatur necessitatibus sint fugit illo deserunt ducimus
                     asperiores at molestiae blanditiis ratione excepturi.
                   </p>
-                  <a href="product.html">
+                  <a href="products.html">
                     Buy Now
                     <i class="fa-solid fa-arrow-right"></i>
                   </a>
@@ -190,134 +202,477 @@
                 </div>
               </div>
             </div>
-
           </div>
 
           <div class="swiper-button-next"></div>
           <div class="swiper-button-prev"></div>
         </div>
       </section>
-      
 
       <section class="partner-section">
-  <div class="partner-container">
-    <div class="partner-section">
-      <img src="assets/images/client-image1.png"  alt="Graduation">
-    </div>
-    <div class="partner-section">
-      <img src="assets/images/client-image2.png" alt="Flaprise">
-    </div>
-    <div class="partner-section">
-      <img src="assets/images/client-image3.png" alt="Bookstore">
-    </div>
-    <div class="partner-section">
-      <img src="assets/images/client-image4.png" alt="Bookdoor">
-    </div>
-    <div class="partner-section">
-      <img src="assets/images/client-image5.png" alt="Library">
-    </div>
-  </div>
-</section>
-
-
-
-<section class="featured-books">
-    <h4 class="subtitle">Some Quality Items</h4>
-    <h2 class="title">Featured Books</h2>
-
-    <div class="book-container">
-      <div class="book-card">
-        <div class="image-container">
-          <img src="assets/images/product-item1.jpg" alt="Simple Way Of Piece Life">
-          <div class="overlay">
-            <button class="add-to-cart-btn">ADD TO CART</button>
+        <div class="partner-container">
+          <div class="partner-section">
+            <img src="assets/images/client-image1.png" alt="Graduation" />
+          </div>
+          <div class="partner-section">
+            <img src="assets/images/client-image2.png" alt="Flaprise" />
+          </div>
+          <div class="partner-section">
+            <img src="assets/images/client-image3.png" alt="Bookstore" />
+          </div>
+          <div class="partner-section">
+            <img src="assets/images/client-image4.png" alt="Bookdoor" />
+          </div>
+          <div class="partner-section">
+            <img src="assets/images/client-image5.png" alt="Library" />
           </div>
         </div>
-        <h3>Simple Way Of Piece Life</h3>
-        <p class="author">Armor Ramsey</p>
-        <p class="price">$ 40.00</p>
-      </div>
-      
-      <div class="book-card">
-        <div class="image-container">
-          <img src="assets/images/product-item2.jpg" alt="Great Travel At Desert">
-          <div class="overlay">
-            <button class="add-to-cart-btn">ADD TO CART</button>
-          </div>
-        </div>
-        <h3>Great Travel At Desert</h3>
-        <p class="author">Sanchit Howdy</p>
-        <p class="price">$ 38.00</p>
-      </div>
-      
-      <div class="book-card">
-        <div class="image-container">
-          <img src="assets/images/product-item3.jpg" alt="The Lady Beauty Scarlett">
-          <div class="overlay">
-            <button class="add-to-cart-btn">ADD TO CART</button>
-          </div>
-        </div>
-        <h3>The Lady Beauty Scarlett</h3>
-        <p class="author">Arthur Doyle</p>
-        <p class="price">$ 45.00</p>
-      </div>
-      
-      <div class="book-card">
-        <div class="image-container">
-          <img src="assets/images/product-item4.jpg" alt="Once Upon A Time">
-          <div class="overlay">
-            <button class="add-to-cart-btn">ADD TO CART</button>
-          </div>
-        </div>
-        <h3>Once Upon A Time</h3>
-        <p class="author">Kien Marry</p>
-        <p class="price">$ 35.00</p>
-      </div>
-    </div>
+      </section>
 
-    <div class="view-all">
-      <a href="#">View All Products →</a>
-    </div>
-  </section>
+      <section class="featured-books">
+        <h4 class="subtitle">Some Quality Items</h4>
+        <h2 class="title">Featured Books</h2>
 
-
-
-
-
-  <section class="bsb-section">
-        <div class="bsb-container">
-            <div class="bsb-showcase">
-                <div class="bsb-image-wrapper">
-                    <img src="assets/images/single-image.jpg" alt="Birds Gonna Be Happy Book Cover" class="bsb-cover-image">
-                </div>
-                <div class="bsb-content">
-                    <h2 class="bsb-heading">Best Selling Book</h2>
-                    <div class="bsb-divider"></div>
-                    
-                    <p class="bsb-author-text">By Timber Hood</p>
-                    
-                    <h3 class="bsb-title-text">Birds Gonna Be Happy</h3>
-                    
-                    <p class="bsb-description-text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                        Sed eu feugiat amet, libero ipsum enim pharetra hac.
-                    </p>
-                    
-                    <p class="bsb-price-text">$ 45.00</p>
-                    
-                    <a href="#" class="bsb-cta-button">Shop It Now →</a>
-                </div>
+        <div class="book-container">
+          <div class="book-card">
+            <div class="image-container">
+              <img
+                src="assets/images/product-item1.jpg"
+                alt="Simple Way Of Piece Life"
+              />
+              <div class="overlay">
+                <button class="add-to-cart-btn">ADD TO CART</button>
+              </div>
             </div>
+            <h3>Simple Way Of Piece Life</h3>
+            <p class="author">Armor Ramsey</p>
+            <p class="price">$ 40.00</p>
+          </div>
+
+          <div class="book-card">
+            <div class="image-container">
+              <img
+                src="assets/images/product-item2.jpg"
+                alt="Great Travel At Desert"
+              />
+              <div class="overlay">
+                <button class="add-to-cart-btn">ADD TO CART</button>
+              </div>
+            </div>
+            <h3>Great Travel At Desert</h3>
+            <p class="author">Sanchit Howdy</p>
+            <p class="price">$ 38.00</p>
+          </div>
+
+          <div class="book-card">
+            <div class="image-container">
+              <img
+                src="assets/images/product-item3.jpg"
+                alt="The Lady Beauty Scarlett"
+              />
+              <div class="overlay">
+                <button class="add-to-cart-btn">ADD TO CART</button>
+              </div>
+            </div>
+            <h3>The Lady Beauty Scarlett</h3>
+            <p class="author">Arthur Doyle</p>
+            <p class="price">$ 45.00</p>
+          </div>
+
+          <div class="book-card">
+            <div class="image-container">
+              <img
+                src="assets/images/product-item4.jpg"
+                alt="Once Upon A Time"
+              />
+              <div class="overlay">
+                <button class="add-to-cart-btn">ADD TO CART</button>
+              </div>
+            </div>
+            <h3>Once Upon A Time</h3>
+            <p class="author">Kien Marry</p>
+            <p class="price">$ 35.00</p>
+          </div>
         </div>
-    </section>
 
+        <div class="view-all">
+          <a href="#">View All Products →</a>
+        </div>
+      </section>
 
+      <section class="bsb-section">
+        <div class="bsb-container">
+          <div class="bsb-showcase">
+            <div class="bsb-image-wrapper">
+              <img
+                src="assets/images/single-image.jpg"
+                alt="Birds Gonna Be Happy Book Cover"
+                class="bsb-cover-image"
+              />
+            </div>
+            <div class="bsb-content">
+              <h2 class="bsb-heading">Best Selling Book</h2>
+              <div class="bsb-divider"></div>
 
+              <p class="bsb-author-text">By Timber Hood</p>
+
+              <h3 class="bsb-title-text">Birds Gonna Be Happy</h3>
+
+              <p class="bsb-description-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu
+                feugiat amet, libero ipsum enim pharetra hac.
+              </p>
+
+              <p class="bsb-price-text">$ 45.00</p>
+
+              <a href="#" class="bsb-cta-button">Shop It Now →</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="featured-books">
+        <h4 class="subtitle">Some Quality Items</h4>
+        <h2 class="title">Popular Books</h2>
+
+        <ul class="category-list">
+          <li class="active">All Genre</li>
+          <li>Business</li>
+          <li>Technology</li>
+          <li>Romantic</li>
+          <li>Adventure</li>
+          <li>Fictional</li>
+        </ul>
+
+        <div class="book-container">
+          <div class="book-card">
+            <div class="image-container">
+              <img
+                src="assets/images/product-item1.jpg"
+                alt="Simple Way Of Piece Life"
+              />
+              <div class="overlay">
+                <button class="add-to-cart-btn">ADD TO CART</button>
+              </div>
+            </div>
+            <h3>Simple Way Of Piece Life</h3>
+            <p class="author">Armor Ramsey</p>
+            <p class="price">$ 40.00</p>
+          </div>
+
+          <div class="book-card">
+            <div class="image-container">
+              <img
+                src="assets/images/product-item2.jpg"
+                alt="Great Travel At Desert"
+              />
+              <div class="overlay">
+                <button class="add-to-cart-btn">ADD TO CART</button>
+              </div>
+            </div>
+            <h3>Great Travel At Desert</h3>
+            <p class="author">Sanchit Howdy</p>
+            <p class="price">$ 38.00</p>
+          </div>
+
+          <div class="book-card">
+            <div class="image-container">
+              <img
+                src="assets/images/product-item3.jpg"
+                alt="The Lady Beauty Scarlett"
+              />
+              <div class="overlay">
+                <button class="add-to-cart-btn">ADD TO CART</button>
+              </div>
+            </div>
+            <h3>The Lady Beauty Scarlett</h3>
+            <p class="author">Arthur Doyle</p>
+            <p class="price">$ 45.00</p>
+          </div>
+
+          <div class="book-card">
+            <div class="image-container">
+              <img
+                src="assets/images/product-item4.jpg"
+                alt="Once Upon A Time"
+              />
+              <div class="overlay">
+                <button class="add-to-cart-btn">ADD TO CART</button>
+              </div>
+            </div>
+            <h3>Once Upon A Time</h3>
+            <p class="author">Kien Marry</p>
+            <p class="price">$ 35.00</p>
+          </div>
+        </div>
+
+        <div class="book-container mt-5">
+          <div class="book-card">
+            <div class="image-container">
+              <img
+                src="assets/images/product-item1.jpg"
+                alt="Simple Way Of Piece Life"
+              />
+              <div class="overlay">
+                <button class="add-to-cart-btn">ADD TO CART</button>
+              </div>
+            </div>
+            <h3>Simple Way Of Piece Life</h3>
+            <p class="author">Armor Ramsey</p>
+            <p class="price">$ 40.00</p>
+          </div>
+
+          <div class="book-card">
+            <div class="image-container">
+              <img
+                src="assets/images/product-item2.jpg"
+                alt="Great Travel At Desert"
+              />
+              <div class="overlay">
+                <button class="add-to-cart-btn">ADD TO CART</button>
+              </div>
+            </div>
+            <h3>Great Travel At Desert</h3>
+            <p class="author">Sanchit Howdy</p>
+            <p class="price">$ 38.00</p>
+          </div>
+
+          <div class="book-card">
+            <div class="image-container">
+              <img
+                src="assets/images/product-item3.jpg"
+                alt="The Lady Beauty Scarlett"
+              />
+              <div class="overlay">
+                <button class="add-to-cart-btn">ADD TO CART</button>
+              </div>
+            </div>
+            <h3>The Lady Beauty Scarlett</h3>
+            <p class="author">Arthur Doyle</p>
+            <p class="price">$ 45.00</p>
+          </div>
+
+          <div class="book-card">
+            <div class="image-container">
+              <img
+                src="assets/images/product-item4.jpg"
+                alt="Once Upon A Time"
+              />
+              <div class="overlay">
+                <button class="add-to-cart-btn">ADD TO CART</button>
+              </div>
+            </div>
+            <h3>Once Upon A Time</h3>
+            <p class="author">Kien Marry</p>
+            <p class="price">$ 35.00</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="container py-5">
+        <h2 class="title text-center">Quote of the day</h2>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="quote-item">
+                <h3>
+                  “The more that you read, the more things you will know. The
+                  more that you learn, the more places you'll go.”
+                </h3>
+                <h5>Dr. Seuss</h5>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="quote-item">
+                <h3>
+                  “The more that you read, the more things you will know. The
+                  more that you learn, the more places you'll go.”
+                </h3>
+                <h5>Dr. Seuss</h5>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="quote-item">
+                <h3>
+                  “The more that you read, the more things you will know. The
+                  more that you learn, the more places you'll go.”
+                </h3>
+                <h5>Dr. Seuss</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </section>
+
+      <section class="newsletter-section">
+        <div class="container container-self">
+          <div class="row align-items-center">
+            <div class="col-md-5">
+              <h2 class="newsletter-title">Subscribe To Our Newsletter</h2>
+              <div class="title-underline"></div>
+            </div>
+            <div class="col-md-7">
+              <p class="newsletter-text">
+                Sed eu feugiat amet, libero ipsum enim pharetra hac dolor sit
+                amet, consectetur. Elit adipiscing enim pharetra hac.
+              </p>
+              <form class="mt-4">
+                <div class="d-flex align-items-center">
+                  <input
+                    type="email"
+                    class="form-control me-2"
+                    placeholder="Enter your email addresss here"
+                    required
+                  />
+                  <button type="submit" class="btn btn-send">
+                    SEND <i class="fas fa-paper-plane ms-1"></i>
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="blog py-5">
+        <div class="container container-self">
+          <h4 class="subtitle text-center">Our Blog</h4>
+          <h2 class="title text-center">Read Our Blog</h2>
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="blog-item">
+                <img
+                  src="assets/images/post-img1.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="blog-top">
+                  <h4>Mar 30, 2021</h4>
+                  <h2>Reading books always makes the moments happy</h2>
+                </div>
+                <div class="blog-bottom">
+                  <h3>inspiration</h3>
+                  <div class="social-icons">
+                    <i class="fa-brands fa-square-facebook"></i>
+                    <i class="fa-brands fa-square-twitter"></i
+                    ><i class="fa-brands fa-square-instagram"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="blog-item">
+                <img
+                  src="assets/images/post-img1.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="blog-top">
+                  <h4>Mar 30, 2021</h4>
+                  <h2>Reading books always makes the moments happy</h2>
+                </div>
+                <div class="blog-bottom">
+                  <h3>inspiration</h3>
+                  <div class="social-icons">
+                    <i class="fa-brands fa-square-facebook"></i>
+                    <i class="fa-brands fa-square-twitter"></i
+                    ><i class="fa-brands fa-square-instagram"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="blog-item">
+                <img
+                  src="assets/images/post-img1.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="blog-top">
+                  <h4>Mar 30, 2021</h4>
+                  <h2>Reading books always makes the moments happy</h2>
+                </div>
+                <div class="blog-bottom">
+                  <h3>inspiration</h3>
+                  <div class="social-icons">
+                    <i class="fa-brands fa-square-facebook"></i>
+                    <i class="fa-brands fa-square-twitter"></i
+                    ><i class="fa-brands fa-square-instagram"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mt-5 d-flex align-items-center justify-content-center">
+            <a href="blog.html" class="by-nw">
+              Read All Articles
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </section>
     </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 mb-4 mb-md-0">
+            <div class="footer-logo">
+              <span class="book">READ</span><span class="saw">ANDBUY</span>
+            </div>
+            <p class="footer-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sagittis
+              sed ptibus liberolectus nonet psyroin. Amet sed lorem posuere sit
+              iaculis amet, ac urna. Adipiscing fames semper erat ac in
+              suspendisse iaculis.
+            </p>
+          </div>
+
+          <div class="col-lg-2"></div>
+
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5>Discover</h5>
+            <ul class="footer-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="products.html">Products</a></li>
+              <li><a href="Authors.html">Authors</a></li>
+              <li><a href="Blog.html">Blog</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5>My Account</h5>
+            <ul class="footer-links">
+              <li><a href="login.html">Login</a></li>
+              <li><a href="cart.html">View Cart</a></li>
+              <li><a href="wishlist.html">My Wishlist</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row footer-bottom">
+          <div class="col-md-6">
+            <p>© 2025 All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script> -->
+
     <script src="assets/js/main.js"></script>
   </body>
 </html>

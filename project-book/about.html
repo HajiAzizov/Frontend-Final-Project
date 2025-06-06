@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ReadAndBuy - Book Store</title>
+    <script src="assets/js/fa.js"></script>
+
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+    /> -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <section class="top-nav">
+        <div
+          class="d-flex align-items-center justify-content-end container container-self"
+        >
+          <div class="top-nav-item dropdown">
+            <a
+              class="dropdown-toggle"
+              href="#"
+              role="button"
+              id="accountDropdown"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <i class="fa-regular fa-user"></i> Account
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="accountDropdown">
+              <li>
+                <a class="dropdown-item" href="signup.html"
+                  ><i class="fa fa-user-plus me-2"></i>Sign Up</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="login.html"
+                  ><i class="fa fa-right-to-bracket me-2"></i>Login</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="/logout"
+                  ><i class="fa fa-arrow-right-from-bracket me-2"></i>Logout</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="top-nav-item">
+            <a href="wishlist.html">
+              <i class="fa-regular fa-heart"></i> Wishlist</a
+            >
+          </div>
+          <div class="top-nav-item">
+            <a href="cart.html">
+              <i class="fa-regular fa-cart-shopping"></i>
+
+              Cart
+              <span>(0$)</span>
+            </a>
+          </div>
+        </div>
+      </section>
+      <nav class="navbar nav-self navbar-expand-xl bg-body-tertiary">
+        <div
+          class="container container-self d-flex align-items-center justify-content-between"
+        >
+          <a class="navbar-brand" href="index.html">
+            <h2>ReadAnd<span>Buy</span></h2>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNavDropdown"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active-self" href="about.html">About</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Pages
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="products.html">Products</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="authors.html">Authors</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero-2">
+        <h2>About Us</h2>
+      </section>
+
+      <section class="py-5 about-main container">
+        <div class="row g-4 align-items-center">
+          <div class="col-lg-6">
+            <h2>About Books</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Reprehenderit ab saepe voluptates blanditiis beatae? Nulla
+              doloribus magni quod sapiente voluptatibus commodi animi odit
+              inventore mollitia ad provident amet eveniet error dignissimos
+              nisi fuga, deserunt obcaecati quasi quis exercitationem ut minus.
+              Nam hic reiciendis expedita aspernatur doloribus aliquam
+              blanditiis provident ad consequatur sapiente fugit harum maiores
+              in corrupti nobis, vero exercitationem, quia ratione.
+              Necessitatibus nesciunt sequi praesentium, nobis aut illo omnis
+              repellat, suscipit optio est obcaecati eum possimus temporibus
+              dolorem pariatur?
+            </p>
+            <a href="products.html" class="by-nw">
+              Shop Now
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <img src="assets/images/post-img1.jpg" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <section class="team py-5">
+        <div class="container container-self">
+          <h4 class="subtitle text-center">Our Team</h4>
+          <h2 class="title text-center">Meet Our Team</h2>
+          <div class="row g-0 text-center">
+            <div class="col-md-3 col-sm-6">
+              <div class="team-member">
+                <img src="assets/images/WhatsApp Image 2025-05-29 at 19.07.16.jpeg" alt="Member 1" />
+                <div class="overlay-self">
+                  <h5>JUSTIN EVANS</h5>
+                  <p>DEVELOPER</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+              <div class="team-member">
+                <img src="assets/images/WhatsApp Image 2025-05-29 at 19.07.16.jpeg" alt="Member 1" />
+                <div class="overlay-self">
+                  <h5>JUSTIN EVANS</h5>
+                  <p>DEVELOPER</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+              <div class="team-member">
+                <img src="assets/images/WhatsApp Image 2025-05-29 at 19.07.16.jpeg" alt="Member 1" />
+                <div class="overlay-self">
+                  <h5>JUSTIN EVANS</h5>
+                  <p>DEVELOPER</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="team-member">
+                <img src="assets/images/WhatsApp Image 2025-05-29 at 19.07.16.jpeg" alt="Member 1" />
+                <div class="overlay-self">
+                  <h5>JUSTIN EVANS</h5>
+                  <p>DEVELOPER</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="partner-section">
+        <div class="partner-container">
+          <div class="partner-section">
+            <img src="assets/images/client-image1.png" alt="Graduation" />
+          </div>
+          <div class="partner-section">
+            <img src="assets/images/client-image2.png" alt="Flaprise" />
+          </div>
+          <div class="partner-section">
+            <img src="assets/images/client-image3.png" alt="Bookstore" />
+          </div>
+          <div class="partner-section">
+            <img src="assets/images/client-image4.png" alt="Bookdoor" />
+          </div>
+          <div class="partner-section">
+            <img src="assets/images/client-image5.png" alt="Library" />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 mb-4 mb-md-0">
+            <div class="footer-logo">
+              <span class="book">READ</span><span class="saw">ANDBUY</span>
+            </div>
+            <p class="footer-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sagittis
+              sed ptibus liberolectus nonet psyroin. Amet sed lorem posuere sit
+              iaculis amet, ac urna. Adipiscing fames semper erat ac in
+              suspendisse iaculis.
+            </p>
+          </div>
+
+          <div class="col-lg-2"></div>
+
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5>Discover</h5>
+            <ul class="footer-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="products.html">Products</a></li>
+              <li><a href="Authors.html">Authors</a></li>
+              <li><a href="Blog.html">Blog</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5>My Account</h5>
+            <ul class="footer-links">
+              <li><a href="login.html">Login</a></li>
+              <li><a href="cart.html">View Cart</a></li>
+              <li><a href="wishlist.html">My Wishlist</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row footer-bottom">
+          <div class="col-md-6">
+            <p>© 2025 All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script> -->
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
