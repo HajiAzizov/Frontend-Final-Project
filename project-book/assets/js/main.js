@@ -79,3 +79,21 @@ function initMap() {
     title: "User Location",
   });
 }
+
+
+document.querySelectorAll('.toggle-password').forEach(toggle => {
+  toggle.addEventListener('click', () => {
+    const targetId = toggle.getAttribute('data-target');
+    const input = document.getElementById(targetId);
+    const icon = toggle.querySelector('i');
+    if (input.type === 'password') {
+      input.type = 'text';
+      icon.classList.remove('fa-eye-slash');
+      icon.classList.add('fa-eye');
+    } else {
+      input.type = 'password';
+      icon.classList.remove('fa-eye');
+      icon.classList.add('fa-eye-slash');
+    }
+  });
+});
