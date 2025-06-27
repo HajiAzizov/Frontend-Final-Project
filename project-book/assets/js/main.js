@@ -97,3 +97,31 @@ document.querySelectorAll('.toggle-password').forEach(toggle => {
     }
   });
 });
+
+  const rangeMin = document.getElementById('rangeMin');
+  const rangeMax = document.getElementById('rangeMax');
+  const rangeMinVal = document.getElementById('rangeMinVal');
+  const rangeMaxVal = document.getElementById('rangeMaxVal');
+
+  function updateRange() {
+    let minVal = parseInt(rangeMin.value);
+    let maxVal = parseInt(rangeMax.value);
+
+    if (minVal > maxVal - 1) {
+      minVal = maxVal - 1;
+      rangeMin.value = minVal;
+    }
+    if (maxVal < minVal + 1) {
+      maxVal = minVal + 1;
+      rangeMax.value = maxVal;
+    }
+
+    rangeMinVal.textContent = `$${minVal}`;
+    rangeMaxVal.textContent = `$${maxVal}`;
+  }
+
+  rangeMin.addEventListener('input', updateRange);
+  rangeMax.addEventListener('input', updateRange);
+
+  // Initialize values
+  updateRange();
